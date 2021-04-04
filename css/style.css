@@ -61,7 +61,6 @@ header .overlay {
     width: 1100px;
     margin: 40px auto 0;
     background: orange;
-<<<<<<< HEAD
     border-radius: 20px;
     padding: 50px;
 }
@@ -99,8 +98,6 @@ header .overlay {
         width: 100%;
     }
 }
-=======
-}
 
 
 
@@ -109,14 +106,6 @@ header .overlay {
 
 
 
-/***********************************/
-/***********right-menu*************/
 
-.menu {
-  position: fixed;  
-  right: 10px; 
-  top: 20%; 
-  padding: 20px;  
- }
- 
->>>>>>> a64df4d6fb772b2f7e3ad53e99d012865a1594ef
+
+
