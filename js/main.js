@@ -2,8 +2,8 @@
     $(function () {
     
     
-        $('.menu_btn').click(function () {
-            $('.menu_ul').toggleClass('active');
+        $('.navigation').click(function () {
+            $('.nav').toggleClass('active');
         })
         
     })

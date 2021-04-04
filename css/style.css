@@ -13,6 +13,16 @@ body {
     margin-right: 70px;
 }
 
+.navigation {
+    position: fixed;
+    left: 50%;
+    
+}
+
+.nav {
+    display: none;
+}
+
 header {
   position: relative;
   background-color: black;
@@ -95,6 +105,26 @@ header .overlay {
     .wow {
         width: 100%;
     }
+    
+    .nav {
+        top: 50px;
+        width: 50%;
+        background: var(--bg);
+        position: absolute;
+        right: -200px;
+        transition: all 1s ;
+    }
+    
+    .nav.active {
+        display: block;
+        right: 0;
+        
+    }
+    .navbar-right {
+        margin-top: 0;
+        margin-right: 0;
+    }
+    
 }
 
 
