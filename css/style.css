@@ -67,53 +67,6 @@ header .overlay {
     background: blue;
 }
 
-
-
-.menu_ul ul{
-    display: flex;
-    
-}
-menu_navbar{
-    z-index: 100;
-}
-.menu_ul.active{
-    transform: translateX(0%);
-}
-
-.menu_ul ul a{
-    margin: 10px;
-    padding: 10px 15px;
-    color: white;
-    font-size: 10px;
-    display: flex;
-    text-transform: uppercase;
-    transition: 0.5s;
-}
-
-.menu_ul ul a:hover{
- 
-}
-
-
-
-.menu_btn{
-    color: wheat;
-    padding: 10px;
-    background: #000;
-    border-radius: 5px;
-    border: 1px solid red;
-    text-transform: uppercase;
-    cursor: pointer;
-    display: none;
-}
-
-.logo{
-    font-size: 20px;
-    color: white;
-}
-
-
-
 @media (max-width: 1420px) {
     .wow {
         width: 900px;
@@ -143,36 +96,6 @@ menu_navbar{
         width: 100%;
     }
 }
- 
-@media(max-width: 700px){
-    .menu_ul{
-         z-index: 200;
-        position: fixed;
-        background: rgb(58, 58, 58);
-        display: flex;
-        align-items: center;
-        width: 50%;
-        height: 100vh;
-        top:0;
-        right: 0;
-        transform: translateX(100%);
-        transition: 1s;
-       
-    }
-    
-    .menu_btn{
-        
-        display: block;
-        
-    }
-    
-    .menu_ul ul{
-        flex-direction: column;
-    }
-    
-    
-}
-
 
 
 
